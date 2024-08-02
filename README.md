@@ -1,5 +1,8 @@
 #Airline Delay Prediction using Neural Networks
+
+
 Overview
+
 This project aims to develop a neural network model to predict the causes of airline delays. The model is trained on the "Airline Delay Cause" dataset, which contains information about flight delays, their causes, and other relevant features.
 
 Dataset
@@ -26,6 +29,7 @@ weather_delay: The arrival delay caused by weather
 nas_delay: The arrival delay caused by the National Air System
 security_delay: The arrival delay caused by security
 late_aircraft_delay: The arrival delay caused by late aircraft
+
 Methodology
 The project follows these steps:
 
@@ -34,6 +38,8 @@ Exploratory Data Analysis (EDA): The dataset is analyzed to identify patterns, r
 Model Development: A neural network model is developed using the Keras library. The model architecture, hyperparameters, and training process are designed and optimized to achieve the best possible performance.
 Model Evaluation: The trained model is evaluated using appropriate metrics, such as accuracy, precision, recall, and F1-score, to assess its performance in predicting the causes of airline delays.
 Model Deployment: The trained model is saved and can be used to make predictions on new, unseen data.
+
+
 Usage
 To use this project, you can follow these steps:
 
