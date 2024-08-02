@@ -31,6 +31,7 @@ security_delay: The arrival delay caused by security
 late_aircraft_delay: The arrival delay caused by late aircraft
 
 Methodology
+
 The project follows these steps:
 
 Data Preprocessing: The dataset is loaded and inspected for any missing or erroneous values. Necessary transformations and feature engineering are performed to prepare the data for model training.
@@ -41,16 +42,20 @@ Model Deployment: The trained model is saved and can be used to make predictions
 
 
 Usage
+
 To use this project, you can follow these steps:
 
 Clone the repository:
+
 git clone https://github.com/your-username/air-line-nn.git
 
 Navigate to the project directory:
+
 cd air-line-nn
 Open the Jupyter Notebook file Air_line_NN.ipynb and run the cells to execute the code.
 
 Requirements
+
 The project requires the following Python libraries:
 
 pandas
